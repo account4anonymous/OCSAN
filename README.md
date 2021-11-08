@@ -1,1 +1,28 @@
 # OCSAN
+
+This is the demo of OCSAN. 
+You can use OpenFace2 https://github.com/TadasBaltrusaitis/OpenFace to cut the face from training or testing videos.
+
+## Commond lines
+--train-dir   --test-dir   --fake-dir 
+
+All the samples the network need should arrange as follows.
+If you have same samples of obama, please arrange the samples folders like：
+```
+/XXX/obama
+├─obama_1
+│      frame_det_00_000001.png
+│      ...
+├─2obama
+│      frame_det_00_xxxxxx.png
+├─...
+└─last_obama
+│      frame_det_00_xxxxxx.png
+```
+The path '/XXX/obama' is the path which you can enter into the command. 
+Please ensure that the subfolder contains the name of the person. 
+The prefix 'frame_det_00_' for each picture is named by OpenFace.
+
+--famous
+
+If you want to train or test the person which is in the Dataset like '\_01_' , please ignore it. If your samples are about the real person like obama or trump, you should active it.
