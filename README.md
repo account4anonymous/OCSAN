@@ -3,7 +3,7 @@
 This is the demo of OCSAN. 
 You can use OpenFace2 https://github.com/TadasBaltrusaitis/OpenFace to cut the face from training or testing videos.
 
-## Commond lines
+## Command
 --train-dir   --test-dir   --fake-dir 
 
 All the samples the network need should arrange as follows.
@@ -25,4 +25,10 @@ The prefix 'frame_det_00_' for each picture is named by OpenFace.
 
 --famous
 
-If you want to train or test the person which is in the Dataset like '\_01_' , please ignore it. If your samples are about the real person like obama or trump, you should active it.
+If you want to train or test the person which is in the Dataset like '\_01_' , please ignore it. If your samples are about the real person like obama or trump, you should active it. 
+
+Please see other command explanation by -h.
+
+## Dataset
+
+We provide the real samples of leagders which mentioned in our paper on the Internet. Please cut it by Openface to use.
