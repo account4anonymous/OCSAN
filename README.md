@@ -1,7 +1,7 @@
 # OCSAN
 
 This is the demo of OCSAN. 
-You can use OpenFace2 https://github.com/TadasBaltrusaitis/OpenFace to cut the face from training or testing videos.
+You can use [OpenFace2](https://github.com/TadasBaltrusaitis/OpenFace) to cut the face from training or testing videos.
 
 ## Command
 --train-dir   --test-dir   --fake-dir 
@@ -31,7 +31,7 @@ Please see other command explanation by -h.
 
 ## Dataset
 
-We provide the real samples of leagders which mentioned in our paper on the Internet. The url is https://pan.baidu.com/s/1Y9PgnnchZfholu026S-NnA. Extract code: jbbo. Please cut it by Openface before use.
+We provide the real samples of leagders which mentioned in our paper on the Internet. The url is [here](https://pan.baidu.com/s/1Y9PgnnchZfholu026S-NnA). Extract code: jbbo. Please cut it by Openface before use. For Setup 1, we use actors in [DeepfakeDetection](https://ai.googleblog.com/2019/09/contributing-data-to-deepfake-detection.html),For Setup 2, we use the people in [Celeb-DF](http://www.cs.albany.edu/~lsw/celeb-deepfakeforensics.html)
 
 ## Enhancement
 
