@@ -32,3 +32,7 @@ Please see other command explanation by -h.
 ## Dataset
 
 We provide the real samples of leagders which mentioned in our paper on the Internet. Please cut it by Openface to use.
+
+## Enhancement
+
+We provide the method to enhance the face samples. You can make it by enhancement.py 
